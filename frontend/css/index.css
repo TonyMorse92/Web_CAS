@@ -1,0 +1,16 @@
+.cover {
+  background: linear-gradient(to right, rgb(60, 13, 20) 3px, rgba(255, 255, 255, 0.5) 5px,
+ rgba(255, 255, 255, 0.25) 7px, rgba(255, 255, 255, 0.25) 10px, transparent 12px, 
+transparent 16px, rgba(255, 255, 255, 0.25) 17px, transparent 22px), 
+url(https://images-na.ssl-images-amazon.com/images/I/51pnouuPO5L.jpg);
+  box-shadow: 0 0 5px -1px black, inset -1px 1px 2px rgba(255, 255, 255, 0.5);
+  margin: auto;
+  border-radius: 5px;
+  width: 389px;
+  height: 500px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
